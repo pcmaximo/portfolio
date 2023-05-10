@@ -99,6 +99,13 @@ h1, h2, h3 {
 /* Para usar las variables se  necesita usar " var( )"  */
 
 /* Títulos */
+.titulo{
+  font-size: 6.2rem;
+  background: -webkit-linear-gradient(#20b1c2, #033b62);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+/* Utilicé linear gradient para el título */
+}
 .titulo span {
   font-size: 2rem;
   color: blue;
